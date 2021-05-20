@@ -1,1 +1,6 @@
-# res_1
+#include<stdio.h>
+main()
+{
+printf("hello World");
+}
+
