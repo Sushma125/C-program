@@ -1,0 +1,38 @@
+#include<stdio.h>
+#include<math.h>
+int main()
+{
+  int a,b,c,d,deo;
+  float root1,root2;
+  Printf("\n quadratic Equation ");
+  Printf("\n enter the values for a,b,c");
+  scanf(" %d%d%d",&a,&b,&c);
+  d=(b*b)-(4*a*c);
+  deno=2*a;
+  if(d>0)
+  {
+    Printf("\n real roots \n");
+    root1=(-b+sqrt(d))/deno;
+    root2=(-b-sqrt(d))/deno;
+    Printf("root1=%f\t root2=%f",root1,root2);
+  }
+   else if(d==0)
+  {
+    Printf("\n equal roots ");
+    root1==-b/deno;
+    root2==-b/deno;
+    Printf(" root1=%f\t root2=%f",root1,root2);
+  }
+  else
+  Print("\n. imaginary roots");
+   return 0;
+}
+
+ quadratic equation 
+Enter the values for
+2
+3
+4
+Imaginary roots
+
+
