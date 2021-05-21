@@ -16,4 +16,9 @@ int main()
 
 
 
-  
+  Out put::
+ Enter a celcius value to convert to farenhiet 23
+ 23.00 celcius = 73.40farenhiet
+ Enter a farenhiet value to convert to celcius 73.40
+73.40 farenhiet=23.00 celcius 
+
