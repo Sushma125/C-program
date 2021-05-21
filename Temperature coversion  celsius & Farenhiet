@@ -1,0 +1,19 @@
+#include<stdio.h>
+int main()
+{
+  float c,f,cr,fa;
+  printf("\n Enter a celcius value to Concert to Fahrenheit ");
+  scanf(" %f",&c);
+  fa=(1.8*c)+32;
+  printf("\n\t%0.2f celcius=%0.2f Farenhiet ",c,fa);
+  printf(" \n enter a Farenhiet value to convey to celcius");
+  scanf("%f",&f);
+  ce=(f-32)/1.8;
+  printf("\n\t %0.2f Farenhiet =%0.2f celcius",f,ce);
+  Return 0;
+}
+
+
+
+
+  
