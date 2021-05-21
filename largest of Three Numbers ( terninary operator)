@@ -1,0 +1,16 @@
+#include<stdio.h>
+int main()
+{
+  int a,b,c,big;
+  printf("\n enter Three Numbers for a,b,c");
+  scanf("%d%d%d",&a,&b,&c);
+   big=a>b?(a>c?a:c):(b>c?b:c);
+   Printf("greatest among the three numbers=%d",big);
+    return 0;
+}
+
+
+Out put:
+
+ Enter a three numbers for a,b,c 2,3,5
+  Greatest among three numbers =5
