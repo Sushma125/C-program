@@ -1,4 +1,4 @@
-#include<studio.h>
+#include<stdio.h>
 Main()
 {
  int n,i,sum=0;
