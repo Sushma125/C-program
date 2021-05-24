@@ -1,0 +1,30 @@
+#include <stdio.h>
+
+//Compiler version gcc  6.3.0
+
+int fib(int);
+int i,n,res;
+main()
+{
+  printf("enter the numbers of terms");
+  scanf("%d",&n);
+  for(i=0;i<n;i++)
+  {
+    res=fib(i);
+    printf("%d\t",res);
+    }
+  }
+    int fib(int n)
+   {
+     if(n==0)
+     return 0;
+     else if(n==1)
+     return 1;
+     else
+     return fib(n-2)+fib(n-1);
+   }
+
+Out put:-
+enter the numbers of terms6
+0	1	1	2	3	5	
+Process finished.
